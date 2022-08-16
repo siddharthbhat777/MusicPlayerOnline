@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menudrawers.Settings">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/back_settings_to_home_button"
+            android:layout_width="87dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:padding="0dp"
+            android:src="@drawable/ic_back" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_settings" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text=" Settings"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/darkMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Dark Mode"
+        android:textColor="@color/blackAndWhite"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <Button
+        android:id="@+id/btnFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Feedback"
+        android:textColor="@color/blackAndWhite"
+        app:layout_constraintEnd_toEndOf="@+id/etFeedback"
+        app:layout_constraintStart_toStartOf="@+id/etFeedback"
+        app:layout_constraintTop_toBottomOf="@+id/etFeedback" />
+
+    <EditText
+        android:id="@+id/etFeedback"
+        android:layout_width="343dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="70dp"
+        android:gravity="start|top"
+        android:hint="Enter your feedback here . . ."
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "695211756019",
+    "project_id": "songs-database-c6e0a",
+    "storage_bucket": "songs-database-c6e0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695211756019:android:7f716381950fbeed666a86",
+        "android_client_info": {
+          "package_name": "com.siddharth_and_rashmi_music_player.music_player"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695211756019-t8n0i1vrdtm6gqt58j4la8ljdsm8rt5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siddharth_and_rashmi_music_player.music_player",
+            "certificate_hash": "c18f7d7b3dd505c446e707d2dab7350d7857ae8a"
+          }
+        },
+        {
+          "client_id": "695211756019-qtea49c3mqeinae1jbt8je39ki56qq96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvm8bqcwwHQew10bdiJD4p7Y4C2I8TW_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695211756019-qtea49c3mqeinae1jbt8je39ki56qq96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
