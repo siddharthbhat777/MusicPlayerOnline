@@ -26,7 +26,6 @@ import com.siddharth_and_rashmi_music_player.music_player.adapters.SwipeSongAdap
 import com.siddharth_and_rashmi_music_player.music_player.data.entities.Song
 import com.siddharth_and_rashmi_music_player.music_player.exoplayer.isPlaying
 import com.siddharth_and_rashmi_music_player.music_player.exoplayer.toSong
-import com.siddharth_and_rashmi_music_player.music_player.menudrawers.Playlists
 import com.siddharth_and_rashmi_music_player.music_player.menudrawers.Settings
 import com.siddharth_and_rashmi_music_player.music_player.other.Status.*
 import com.siddharth_and_rashmi_music_player.music_player.ui.viewmodels.MainViewModel
