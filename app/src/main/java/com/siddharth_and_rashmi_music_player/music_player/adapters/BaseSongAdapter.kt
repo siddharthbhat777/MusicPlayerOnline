@@ -6,9 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.siddharth_and_rashmi_music_player.music_player.R
 import com.siddharth_and_rashmi_music_player.music_player.data.entities.Song
-import kotlinx.android.synthetic.main.list_item.view.*
 
 abstract class BaseSongAdapter(
     private val layoutId: Int

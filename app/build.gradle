@@ -7,7 +7,6 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 30
-    buildToolsVersion '29.0.3'
 
     defaultConfig {
         applicationId "com.siddharth_and_rashmi_music_player.music_player"

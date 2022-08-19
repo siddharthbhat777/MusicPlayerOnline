@@ -17,10 +17,7 @@ import com.siddharth_and_rashmi_music_player.music_player.other.Status.SUCCESS
 import com.siddharth_and_rashmi_music_player.music_player.ui.viewmodels.MainViewModel
 import com.siddharth_and_rashmi_music_player.music_player.ui.viewmodels.SongViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_song.*
-import java.text.SimpleDateFormat
-import java.util.*
 import javax.inject.Inject
 
 @AndroidEntryPoint

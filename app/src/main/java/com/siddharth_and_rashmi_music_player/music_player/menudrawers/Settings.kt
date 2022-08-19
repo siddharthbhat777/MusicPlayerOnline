@@ -4,11 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.appcompat.widget.SwitchCompat
 import com.siddharth_and_rashmi_music_player.music_player.R
 import com.siddharth_and_rashmi_music_player.music_player.ui.MainActivity
 import kotlinx.android.synthetic.main.activity_settings.*
