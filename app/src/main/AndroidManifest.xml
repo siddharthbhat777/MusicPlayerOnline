@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.siddharth_and_rashmi_music_player.music_player">
+    package="com.project.music_player">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
-        android:name=".MusicApplication"
+        android:name="com.project.music_player.MusicApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".search.SearchSongsMain"></activity>
-        <activity android:name=".menudrawers.Playlists" />
-        <activity android:name=".menudrawers.Settings" />
+        <activity android:name="com.project.music_player.menudrawers.Playlists" />
+        <activity android:name="com.project.music_player.menudrawers.Settings" />
 
-        <service android:name=".exoplayer.MusicService">
+        <service android:name="com.project.music_player.exoplayer.MusicService">
             <intent-filter>
                 <action android:name="android.media.browse.MediaBrowserService" />
             </intent-filter>
         </service>
 
-        <activity android:name=".ui.MainActivity">
+        <activity android:name="com.project.music_player.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

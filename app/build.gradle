@@ -9,7 +9,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.siddharth_and_rashmi_music_player.music_player"
+        applicationId "com.project.music_player"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

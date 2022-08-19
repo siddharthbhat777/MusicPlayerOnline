@@ -7,18 +7,55 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:695211756019:android:7f716381950fbeed666a86",
+        "mobilesdk_app_id": "1:695211756019:android:531688e7a12ca8bf666a86",
+        "android_client_info": {
+          "package_name": "com.project.music_player"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695211756019-3tgc6cv93uj72k488a4uam0cehidggss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.music_player",
+            "certificate_hash": "dcd4da9caa91f1573d4b9b34c1f236138ff933d1"
+          }
+        },
+        {
+          "client_id": "695211756019-qtea49c3mqeinae1jbt8je39ki56qq96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvm8bqcwwHQew10bdiJD4p7Y4C2I8TW_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695211756019-qtea49c3mqeinae1jbt8je39ki56qq96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695211756019:android:87e666f818f738ef666a86",
         "android_client_info": {
           "package_name": "com.siddharth_and_rashmi_music_player.music_player"
         }
       },
       "oauth_client": [
         {
-          "client_id": "695211756019-t8n0i1vrdtm6gqt58j4la8ljdsm8rt5v.apps.googleusercontent.com",
+          "client_id": "695211756019-6fsstrjmlod02t21pp5qah3d72v9dtqr.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.siddharth_and_rashmi_music_player.music_player",
-            "certificate_hash": "c18f7d7b3dd505c446e707d2dab7350d7857ae8a"
+            "certificate_hash": "917fadf922c6a41f3a8d245c010f55e7e70c98b3"
           }
         },
         {
